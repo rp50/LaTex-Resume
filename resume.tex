@@ -1,0 +1,98 @@
+\documentclass[10pt]{article}
+    \usepackage[english]{babel}
+    \input{config/minimal-resume-config}
+    \begin{document}
+    
+\begin{center}
+	% Personal
+	% -----------------------------------------------------
+	{\fontsize{\sizeone}{\sizeone}\fontspec[Path = fonts/,LetterSpace=15]{Montserrat-Regular} ROBERT PAUL}
+	\\
+	\vspace{2mm}
+	{\fontsize{1em}{1em}\fontspec[Path = fonts/]{Montserrat-Light} rob.k.paul@gmail.com -- (831) 235-8681 -- Chico, CA -- github.com/robkpaul}
+\end{center}
+% Chapter: Education
+% ------------------
+
+\chap{EDUCATION}{
+	
+	\school
+	{California State University, Chico}
+	{Aug 2020 – Present}
+	{BS Computer Science, GPA: 3.850}
+	{Chico, CA}
+	{\begin{newitemize}
+		\item Algorithms and Data Structures I-III, Databases, Discrete Math, Analytic Geometry and Calculus I-II
+		\end{newitemize}
+	}
+}
+% Chapter: Work Experience
+% ------------------------
+\chap{EXPERIENCE}{
+	
+	\job
+	{IT Support Services, CSU Chico}
+	{Aug 2021 – Present}
+	{Computer Lab Assistant}
+	{Chico, CA}
+	{\begin{newitemize}
+		\item {Monitor computer labs and ensure the safety of lab patrons.}
+		\item {Provide technical support for patrons.}
+		\end{newitemize}}
+	\job
+	{Carmel Unified School District}
+	{May 2021 – Jul 2021}
+	{Substitute Food Worker}
+	{Carmel, CA}
+	{\begin{newitemize}
+		\item {Pack and distribute meals of the school lunch program.}
+		\item {Ensure kitchen cleanliness.}
+		\end{newitemize}}
+}
+% Chapter: Skills
+% ------------------------
+
+\chap{SKILLS}{
+	\begin{newitemize}
+		\item Languages: C++, Java, Python
+		\item Tools: Git, Heroku, Gradle, MongoDB
+	\end{newitemize}
+}
+% Chapter: Projects
+% ------------------------
+
+\chap{PROJECTS}{
+	
+	\project
+	{Modron}
+	{Python, AsyncIO, MongoDB (Motor), Discord.Py}
+	{https://github.com/robkpaul/Modron}
+	{A Discord chat bot designed for planning and keeping track of sessions for a Dungeons and Dragons campaign.\\}
+		\project
+		{NPC Generator}
+		{C++, JSON}
+		{https://github.com/robkpaul/NPC-Generator}
+		{A Command-Line NPC generator for Dungeons and Dragons 5E, utilizing JSON to store and save NPCs for future reference.\\}
+			\project
+			{Binny}
+			{Java, WPILib}
+			{https://github.com/CarmelRobotics/binny}
+			{A holonomic drive robot built from scratch, and programmed using WPILib.\\}
+			}
+			% Chapter: Awards
+			% ------------------------
+			
+			\chap{AWARDS}{
+				
+				\award
+				{Dean\textquotesingle{}s Honor List}
+				{Fall 2020, Spring 2021}
+				{Recognized for performance in classes and attaining an above 3.5 GPA for the semester.}
+				{CSU Chico ECC}
+				\award
+				{Computer Science Department Student of the Year}
+				{May 2020}
+				{Recognized as the Computer Science departments best student for the 2020 school year due to leadership in the High School\textquotesingle{}s robotics team and exemplary class performance.}
+				{Carmel High School}
+			}
+\end{document}
